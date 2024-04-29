@@ -1,0 +1,18 @@
+.card{
+   width: 100%;
+   padding: 20px;
+   border-radius: 20px;
+   border: 2px dotted black;
+   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+   transition: all 0.5s;
+}
+.card:hover{
+    width: 1200 px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+}
+.card img{
+    height: 250px;
+    object-fit: contain;
+}
